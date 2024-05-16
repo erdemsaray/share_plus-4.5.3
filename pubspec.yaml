@@ -20,11 +20,9 @@ dependencies:
   mime: ^1.0.2
   flutter:
     sdk: flutter
-  share_plus_platform_interface: ^3.1.1
-  share_plus_linux: ^3.0.0
-  share_plus_macos: ^3.0.1
-  share_plus_windows: ^3.0.1
-  share_plus_web: ^3.1.0
+  share_plus_platform_interface:
+    git:
+      url: https://github.com/erdemsaray/share_plus_platform_interface-3.4.0.git
 
 dev_dependencies:
   flutter_test:
